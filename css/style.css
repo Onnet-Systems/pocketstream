@@ -1,0 +1,242 @@
+
+#override{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#override .navbar-inverse{
+	background-color: #ff5e5e;
+	border: white;
+	font-size: 1.2em;
+	position: fixed;
+	width: 100%;
+}
+
+@media(min-width: 768px){
+	#override img{
+		float: left;
+		width: 40px;
+		position: relative;
+		top: 5px;
+		right: 20px;
+	}
+
+	#override .navbar .container{
+		margin-left: 20px;
+	}
+}
+
+#override .navbar .container{
+		padding: 5px 10px;
+	}
+
+
+#override .navbar li a{
+	color: white;
+}
+
+#override .container1{
+	display: flex;
+	padding: 50px;	
+	padding-top: 100px;
+}
+
+#override .container1 img{
+	width: 55%;
+	height: 55%;
+	margin-left: 20px;
+}
+
+#override .content1{
+	margin-left: 5%;
+}
+
+#override .container1 h1{
+	color: #ff4f4f;
+	font-weight: 300;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+#override .container1 p{
+	line-height: 25px;
+	font-size: 1.2em;
+	color: #828282;
+}
+
+#override .strip{
+	background: #ff7c7c;
+	text-align: center;
+	color: white;
+	padding: 2% 10%;
+	margin: 0px;
+}
+
+#override .strip h2{
+	font-size: 1.6em;
+}
+
+#override footer{
+	background: #cd545b;
+	height: 50px;
+	text-align: center;
+}
+
+#override footer p{
+	color: white;
+	font-size: 1.2em;
+	line-height: 50px;
+	margin-right: 50px;	
+	margin-bottom: 0px;
+}
+
+/* --------------------------------------features--------------------------------------- */
+
+.features-container{
+	padding: 0px 50px;
+	margin-top: 50px;
+}
+
+.features-container h1,
+.prebook h1,
+.contact h1{
+	text-align: center;
+	font-size: 2em;
+	color: #cd545b;
+}
+
+.features-container hr,
+.prebook hr,
+.contact hr{
+	border-bottom: 1px solid #cd545b;
+	opacity: 0.5;
+	margin: 0 20%;
+}
+
+.features-container h2{
+	font-size: 1.6em;
+	margin-top: 50px;
+	font-weight: 700;
+	color: #515151;
+}
+
+.features-container #featurehdg{
+	text-align: center;
+	margin-top: 70px;
+	color: #cd545b;
+}
+
+.features-container ul{
+	margin-left: -22px;
+	margin-top: 20px;
+}
+
+.features-container li{
+	margin-top: 5px;
+	font-size: 1.2em;
+}
+
+.featurewrapper{
+	display: flex;
+	padding: 0 4%;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.featurewrapper .feature{
+	margin: 20px;
+	display: flex;	
+}
+
+.featurewrapper .feature img{
+	align-self: flex-start;
+	width: 60px !important;
+}
+
+.featurewrapper .feature div{
+	padding-right: 10px;	
+	width: 300px;
+}
+
+.featurewrapper .feature h4{
+	font-weight: 700;
+	color: #cd545b;
+}
+
+.featurewrapper .feature p{
+	color: #515151;
+}
+
+/* -------------------------------------- prebook ------------------------------------------ */
+
+.prebook{
+	padding-top: 20px;
+	padding-bottom: 150px;
+}
+
+.prebook p{
+	margin-top: 75px !important;
+}
+
+.prebook, .contact{
+	margin-top: 70px;
+}
+
+.prebook p,
+.contact p{
+	margin-top: 25px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1.2em;
+}
+
+.prebook #prebookbtn{	
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	background-color: 
+}
+
+.prebook #prebookbtn a{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #ff5e5e;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.prebook #prebookbtn a:hover{
+	border: 1px solid #ff5e5e;
+	color: #ff5e5e;
+	background-color: white;
+}
+
+/* -------------------------------------- responsive ------------------------------------------ */
+
+@media(max-width: 767px){
+	#logo{
+		width: 0;
+	}
+
+	.navbar-header #logo1{
+		margin-left: 2%;
+		font-size: 1.2em;
+		color: white;
+		width: 50px;
+	}
+
+	#override .container1{
+		flex-wrap: wrap;
+	}
+}
+
+@media(min-width: 768px){
+	.navbar-header #logo1{
+		width: 0px;		
+	}
+
+	
+}
