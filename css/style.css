@@ -214,6 +214,11 @@
 	background-color: white;
 }
 
+#contact{
+	margin-top: 0px;
+	padding-top: 70px;
+}
+
 /* -------------------------------------- responsive ------------------------------------------ */
 
 @media(max-width: 767px){
